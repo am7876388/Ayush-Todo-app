@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#Outside{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: 100vh;
+background-color: #826afb;
+}
+#Submit{
+    width: 10vw;
+    height: 10vh;
+    border-radius: 1vw;
+    font-size: 2vw;
+    color: #fff;
+    background: #00bcd4;
+}
+#Submit:hover{
+    background: #008ba3;
+    cursor: pointer;
+}
+#Messages{
+    text-align: center;
+    margin-top: 3vh;
+    width:50vw;
+    height:35vh;
+    border: 2px dashed #B0BEC5;
+    background-color: #F5F5F5;
+    overflow: auto;
+}
+#Messages h2{
+    width: 100%;
+    text-align: start;
+}
+.Data{
+    width: 100%;
+    margin-top: 2vh;
+    font-size: 1.5vw;
+    text-align: start;
+    background-color: #e3f2fd;
+}
